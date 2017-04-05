@@ -10,10 +10,7 @@
 Param(
 [Parameter(Mandatory=$true)]
 [String]
-$TagName,
-[Parameter(Mandatory=$true)]
-[String]
-$TagValue,
+$VmId,
 [Parameter(Mandatory=$true)]
 [String]
 $NewSize
